@@ -1,5 +1,5 @@
 {% set name = "wrfplot" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wrfplot-{{ version }}.tar.gz
-  sha256: 9c398c65994676c04f3447bb4c55642a2a08a6a6cac629e9f08a79e56a885cea
+  sha256: 2febaf250d4a9b773628c44cbe9dbbc229ddea9753f3c103da382ef4196b5266
 
 build:
   entry_points:
