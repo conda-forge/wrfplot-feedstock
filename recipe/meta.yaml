@@ -45,7 +45,6 @@ about:
   license: GPL-3.0 AND GPL-1.0-or-later
   license_file:
     - LICENSE
-    - wrfplot/colormaps/colormaps/ncar_ncl/Copyright
 
 extra:
   recipe-maintainers:
