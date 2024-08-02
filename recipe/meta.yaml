@@ -39,10 +39,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/wxguy/wrfplot
+  home: https://wxguy.in/wrfplot
   summary: Command line application to plot WRF model output data
-  dev_url: https://github.com/wxguy/wrfplot/
-  license: GPL-3.0 AND GPL-1.0-or-later
+  dev_url: https://github.com/wxguy/wrfplot
+  doc_url: https://wxguy.in/wrfplot
+  license: GPL-3.0-or-later
   license_file:
     - LICENSE
 
