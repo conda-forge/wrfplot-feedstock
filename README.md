@@ -3,13 +3,15 @@ About wrfplot-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wrfplot-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/wxguy/wrfplot
+Home: https://wxguy.in/wrfplot
 
-Package license: GPL-3.0 AND GPL-1.0-or-later
+Package license: GPL-3.0-or-later
 
 Summary: Command line application to plot WRF model output data
 
-Development: https://github.com/wxguy/wrfplot/
+Development: https://github.com/wxguy/wrfplot
+
+Documentation: https://wxguy.in/wrfplot
 
 Current build status
 ====================
