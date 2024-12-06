@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wrfplot-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wrfplot-{{ version }}.tar.gz
   sha256: 87641f6875fc1d6330d62ae2538a24c087ed6f593c8530ac1219ff9abc481ebb
 
 build:
@@ -14,16 +14,16 @@ build:
     - wrfplot=wrfplot.wrfplot:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - setuptools
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools-scm
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - cartopy
     - matplotlib-base
     - wrf-python
@@ -37,6 +37,7 @@ test:
     - wrfplot --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://wxguy.in/wrfplot
